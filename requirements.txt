@@ -1,4 +1,4 @@
-﻿altair==5.5.0
+altair==5.5.0
 annotated-types==0.7.0
 asttokens==3.0.0
 attrs==25.3.0
@@ -66,7 +66,7 @@ protobuf==6.31.1
 psutil==7.0.0
 pure_eval==0.2.3
 puremagic==1.30
-pyarrow==21.0.0
+pyarrow==10.0.1
 pydantic==2.12.0
 pydantic_core==2.41.1
 pydeck==0.9.1
@@ -77,7 +77,6 @@ pytest-timeout==2.4.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
 PyWavelets==1.9.0
-pywin32==311
 PyYAML==6.0.2
 pyzmq==27.0.1
 referencing==0.36.2
@@ -111,4 +110,6 @@ wcwidth==0.2.13
 wordcloud==1.9.4
 xgboost==3.0.5
 ydata-profiling==4.17.0
+
+
 
