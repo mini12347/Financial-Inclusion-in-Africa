@@ -32,7 +32,6 @@ This project aims to highlight and analyze the **financial inclusion gap in Afri
 
 ## 📂 Project Structure
 📁 Financial-Inclusion-Prediction <br/>
-│
 ├── Financial_inclusion_dataset.csv # Dataset .csv <br/>
 ├── Notebook.ipynb # Model training, analysis, and evaluation <br/>
 ├── report.ipynb # ydata_profiling report <br/>
