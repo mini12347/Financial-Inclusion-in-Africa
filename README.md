@@ -31,14 +31,14 @@ This project aims to highlight and analyze the **financial inclusion gap in Afri
 ---
 
 ## 📂 Project Structure
-📁 Financial-Inclusion-Prediction
+📁 Financial-Inclusion-Prediction <br/>
 │
-├── Financial_inclusion_dataset.csv # Dataset .csv
-├── Notebook.ipynb # Model training, analysis, and evaluation
-├── report.ipynb # ydata_profiling report
-├── Stream.py # Streamlit web app
-├── xgb_model.pkl # Saved XGBoost model
-├── requirements.txt # Project dependencies
+├── Financial_inclusion_dataset.csv # Dataset .csv <br/>
+├── Notebook.ipynb # Model training, analysis, and evaluation <br/>
+├── report.ipynb # ydata_profiling report <br/>
+├── Stream.py # Streamlit web app <br/>
+├── xgb_model.pkl # Saved XGBoost model <br/>
+├── requirements.txt # Project dependencies <br/>
 └── README.md # Documentation
 
 
