@@ -49,13 +49,19 @@ The dataset focuses on **financial inclusion in African countries** and includes
 
 | Feature | Description |
 |----------|-------------|
+| `uniqueid` | ID |
 | `country` | Country of the individual |
 | `year` | Year of the survey |
 | `location_type` | Urban or Rural |
 | `cellphone_access` | Whether the person has cellphone access |
 | `household_size` | Number of people in the household |
+| `age_of_respondent` | Age in years |
+| `gender_of_respondent` | Male or Female |
+| `relationship_with_head` | the relationship of the respondants with the head of the family (Spouse/Child..) |
+| `marital_status` | Married / Divorced /Widowed ... |
 | `gender_of_respondent` | Male or Female |
 | `education_level` | Highest level of education attained |
+| `job_type` | job type of the respondant |
 | `bank_account` | Target variable: Yes (1) or No (0) |
 
 ---
