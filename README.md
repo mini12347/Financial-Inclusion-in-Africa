@@ -92,13 +92,13 @@ The dataset focuses on **financial inclusion in African countries** and includes
 ## 💻 Installation & Setup
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/mini12347/Financial-Inclusion-in-Africa.git
-cd financial-inclusion-prediction
-2️⃣ Create a Virtual Environment
-python -m venv venv
-venv\Scripts\activate     # On Windows
-source venv/bin/activate  # On macOS/Linux
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-4️⃣ Run Locally
-streamlit run Stream.py
+git clone https://github.com/mini12347/Financial-Inclusion-in-Africa.git <br/>
+cd financial-inclusion-prediction <br/>
+### 2️⃣ Create a Virtual Environment <br/>
+python -m venv venv <br/>
+venv\Scripts\activate     # On Windows <br/>
+source venv/bin/activate  # On macOS/Linux <br/>
+### 3️⃣ Install Dependencies <br/>
+pip install -r requirements.txt <br/>
+### 4️⃣ Run Locally <br/>
+streamlit run Stream.py <br/>
