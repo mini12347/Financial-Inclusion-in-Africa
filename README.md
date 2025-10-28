@@ -93,7 +93,7 @@ The dataset focuses on **financial inclusion in African countries** and includes
 
 ### 1️⃣ Clone the Repository
 git clone https://github.com/mini12347/Financial-Inclusion-in-Africa.git <br/>
-cd financial-inclusion-prediction <br/>
+cd Financial-Inclusion-in-Africa <br/>
 ### 2️⃣ Create a Virtual Environment <br/>
 python -m venv venv <br/>
 venv\Scripts\activate     # On Windows <br/>
