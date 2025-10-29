@@ -155,13 +155,6 @@ if page == "Dashboard":
         st.plotly_chart(fig3, use_container_width=True)
 
     with col2:
-        if 'year' in data.columns:
-            st.subheader("Bank Account Ownership Over Time")
-            fig_year = px.line(
-                data.groupby('year')['bank_account'].mean().reset_index(),
-                x='year', y='bank_account',
-                markers=True,
-                labels={'bank_account':'% with Bank Account', 'year':'Year'},
-                template='plotly_dark'
-            )
-            st.plotly_chart(fig_year, use_container_width=True)
+       st.subheader("Age vs. Probability of Bank Account")
+       fig3 = px.histogram(data, x='age_of_respondent', color='bank_account', barmode='overlay', template='plotly_dark')
+       st.plotly_chart(fig3, use_container_width=True)
