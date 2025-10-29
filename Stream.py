@@ -63,7 +63,7 @@ if page == "Predict Bank Account":
         st.progress(int(prediction_proba*100))
         st.write(f"Probability of having a bank account: {prediction_proba:.2f}")
 if page == "Dashboard":
-    st.title("🌍 Bank Account Ownership Dashboard")
+    st.title("Bank Account Ownership Dashboard")
     st.markdown("Explore interactive insights from the financial inclusion dataset.")
 
     selected_country = st.selectbox("Select Country", ["All"] + list(df['country'].unique()))
@@ -158,3 +158,4 @@ if page == "Dashboard":
        st.subheader("Age vs. Probability of Bank Account")
        fig3 = px.histogram(data, x='age_of_respondent', color='bank_account', barmode='overlay', template='plotly_dark')
        st.plotly_chart(fig3, use_container_width=True)
+
